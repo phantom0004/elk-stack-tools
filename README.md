@@ -3,12 +3,6 @@
 ## Overview
 This repository contains tools, scripts, and documentation for managing and using the ELK (Elasticsearch, Logstash, Kibana) stack. These tools help streamline the installation, management, and usage of the ELK stack, making it easier for users to deploy and maintain.
 
-## How ELK Looks
-
-Here is a visual representation of the ELK stack in action:
-
-![ELK Stack Dashboard](https://github.com/phantom0004/elk-stack-tools/assets/42916447/b05c233c-705d-4d73-b2cb-b1e7e3b2bd00)
-
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -22,6 +16,14 @@ Here is a visual representation of the ELK stack in action:
 - [Documentation](#documentation)
 - [Contributing](#contributing)
 - [License](#license)
+
+---
+
+## How ELK Looks
+
+Here is a visual representation of the ELK stack in action:
+
+![ELK Stack Dashboard](https://github.com/phantom0004/elk-stack-tools/assets/42916447/b05c233c-705d-4d73-b2cb-b1e7e3b2bd00)
 
 ---
 
