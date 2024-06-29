@@ -38,7 +38,7 @@ For more information, announcements, and discussions about the ELK stack, visit 
 
 - **Elasticsearch Security Overview:**
   In-depth overview of security features and configurations for Elasticsearch.
-  [Elasticsearch Security Overview](https://www.elastic.co/guide/en/elasticsearch/reference/current/security.html)
+  [Elasticsearch Security Overview](https://www.elastic.co/guide/en/elasticsearch/reference/current/secure-cluster.html)
 
 ### Community and Support
 
