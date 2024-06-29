@@ -105,6 +105,8 @@ To install the ELK stack on your machine, follow these steps:
 
     Open your web browser and go to `http://localhost:5601`.
 
+Following these steps will install and start the ELK stack on your machine.
+
 ---
 
 ## Usage
