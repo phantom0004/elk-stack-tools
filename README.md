@@ -50,13 +50,60 @@ To install the ELK stack on your machine, follow these steps:
     sudo apt-get update && sudo apt-get install elasticsearch
     ```
 
+5. **Start Elasticsearch and enable it to start on boot:**
+
+    ```
+    sudo systemctl enable elasticsearch
+    sudo systemctl start elasticsearch
+    ```
+
 ### Logstash
 
-Follow the official Logstash Installation Guide for installation instructions.
+1. **Install Logstash from the same repository:**
+
+    ```
+    sudo apt-get install logstash
+    ```
+
+2. **Start Logstash and enable it to start on boot:**
+
+    ```
+    sudo systemctl enable logstash
+    sudo systemctl start logstash
+    ```
 
 ### Kibana
 
-Follow the official Kibana Installation Guide for installation instructions.
+1. **Install Kibana from the same repository:**
+
+    ```
+    sudo apt-get install kibana
+    ```
+
+2. **Start Kibana and enable it to start on boot:**
+
+    ```
+    sudo systemctl enable kibana
+    sudo systemctl start kibana
+    ```
+
+### Verify the Installation
+
+1. **Check Elasticsearch:**
+
+    ```
+    curl -X GET "localhost:9200/"
+    ```
+
+2. **Check Logstash:**
+
+    ```
+    sudo systemctl status logstash
+    ```
+
+3. **Check Kibana:**
+
+    Open your web browser and go to `http://localhost:5601`.
 
 ---
 
