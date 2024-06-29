@@ -1,8 +1,5 @@
 # ELK Stack Tools and Documentation
 ![image](https://github.com/phantom0004/elk-stack-tools/assets/42916447/b05c233c-705d-4d73-b2cb-b1e7e3b2bd00)
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-![image](https://github.com/phantom0004/elk-stack-tools/assets/42916447/b05c233c-705d-4d73-b2cb-b1e7e3b2bd00)
 
 ## Overview
 This repository contains tools, scripts, and documentation for managing and using the ELK (Elasticsearch, Logstash, Kibana) stack. These tools help streamline the installation, management, and usage of the ELK stack, making it easier for users to deploy and maintain.
@@ -293,3 +290,5 @@ For detailed documentation on installing, configuring, and using the ELK stack, 
 ## License
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
