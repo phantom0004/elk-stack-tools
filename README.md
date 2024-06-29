@@ -276,8 +276,8 @@ For detailed documentation on installing, configuring, and using the ELK stack, 
 - [Official Elasticsearch Documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)
 - [Official Logstash Documentation](https://www.elastic.co/guide/en/logstash/current/index.html)
 - [Official Kibana Documentation](https://www.elastic.co/guide/en/kibana/current/index.html)
-- [ELK Stack Setup Guide](docs/setup-guide.md)
-- [ELK Stack Troubleshooting](docs/troubleshooting.md)
+- [ELK Stack Setup Guide](https://logz.io/learn/complete-guide-elk-stack/)
+- [ELK Stack Troubleshooting](https://www.digitalocean.com/community/tutorials/how-to-troubleshoot-common-elk-stack-issues)
 
 ## License
 
