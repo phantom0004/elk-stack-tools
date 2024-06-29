@@ -20,6 +20,14 @@ This repository contains tools, scripts, and documentation for managing and usin
 
 ---
 
+## Prerequisites
+Ensure your system meets the following requirements before installing the ELK stack:
+- Operating System: Ubuntu 18.04 or later
+- Java: Java 8 or later
+- Storage: Minimum 20 GB of available disk space (50-100 GB recommended for production environments)
+- Internet Connection: Required for downloading packages and updates
+- Memory: Minimum 4 GB RAM (8 GB or more recommended for better performance)
+
 ## Installation
 
 To install the ELK stack on your machine, follow these steps:
