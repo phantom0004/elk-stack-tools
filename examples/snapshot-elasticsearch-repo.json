@@ -1,0 +1,7 @@
+{
+  "type": "fs",
+  "settings": {
+    "location": "/mnt/backups",
+    "compress": true
+  }
+}
