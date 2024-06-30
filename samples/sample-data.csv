@@ -1,0 +1,6 @@
+timestamp,level,service,message,user_id,ip_address
+2024-06-30T10:32:16Z,INFO,auth,User login successful,1234,192.168.1.10
+2024-06-30T10:32:17Z,WARN,auth,User login attempt failed,1235,192.168.1.11
+2024-06-30T10:32:18Z,ERROR,database,Database connection failed,system,192.168.1.12
+2024-06-30T10:32:19Z,INFO,web,Page accessed,1234,192.168.1.10
+2024-06-30T10:32:20Z,INFO,web,Page accessed,1235,192.168.1.11
