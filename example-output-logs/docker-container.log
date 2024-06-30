@@ -1,0 +1,5 @@
+2024-06-30 10:32:16.123 | INFO  | webapp-container | Starting web application on port 8080
+2024-06-30 10:32:17.456 | INFO  | webapp-container | Web application started successfully
+2024-06-30 10:32:18.789 | WARN  | webapp-container | Slow response time detected for endpoint /api/v1/resource
+2024-06-30 10:32:19.012 | ERROR | webapp-container | Exception occurred while processing request: java.lang.NullPointerException
+2024-06-30 10:32:19.013 | INFO  | webapp-container | Shutting down web application
