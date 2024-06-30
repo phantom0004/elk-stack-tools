@@ -7,3 +7,69 @@ node_modules/
 
 # Backup files
 *.bak
+
+# Elasticsearch specific files
+elasticsearch/data/
+elasticsearch/logs/
+elasticsearch/tmp/
+
+# Logstash specific files
+logstash/data/
+logstash/logs/
+logstash/tmp/
+
+# Kibana specific files
+kibana/optimize/
+kibana/node_modules/
+kibana/plugins/
+kibana/built_assets/
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Python virtual environments
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Ignore compiled files
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Ignore dependency directories
+vendor/
+bower_components/
+
+# Ignore npm debug files
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignore coverage files
+coverage/
+*.lcov
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+*.pid
+
+# Ensure important scripts are not ignored
+!*.sh
+!*.py
+!*.pl
+
+# Ensure Kibana configuration files are not ignored
+!kibana/config/
+!*.conf
+!*.yml
+!*.yaml
+!*.json
