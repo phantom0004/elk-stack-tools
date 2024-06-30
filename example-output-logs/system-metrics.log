@@ -1,0 +1,5 @@
+2024-06-30T10:32:16Z hostname=server1 cpu_usage=15.6 memory_usage=60.4 disk_io_read=100.5 disk_io_write=50.2 network_in=200 network_out=150
+2024-06-30T10:32:17Z hostname=server1 cpu_usage=16.1 memory_usage=61.0 disk_io_read=110.5 disk_io_write=60.2 network_in=210 network_out=160
+2024-06-30T10:32:18Z hostname=server1 cpu_usage=14.9 memory_usage=59.8 disk_io_read=90.4 disk_io_write=40.3 network_in=220 network_out=170
+2024-06-30T10:32:19Z hostname=server2 cpu_usage=20.0 memory_usage=70.0 disk_io_read=130.5 disk_io_write=80.2 network_in=230 network_out=180
+2024-06-30T10:32:20Z hostname=server2 cpu_usage=21.5 memory_usage=71.2 disk_io_read=140.4 disk_io_write=90.1 network_in=240 network_out=190
