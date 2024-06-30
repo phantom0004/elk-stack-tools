@@ -1,0 +1,26 @@
+<logs>
+  <log>
+    <timestamp>2024-06-30T10:32:16Z</timestamp>
+    <level>INFO</level>
+    <service>auth</service>
+    <message>User login successful</message>
+    <user_id>1234</user_id>
+    <ip_address>192.168.1.10</ip_address>
+  </log>
+  <log>
+    <timestamp>2024-06-30T10:32:17Z</timestamp>
+    <level>WARN</level>
+    <service>auth</service>
+    <message>User login attempt failed</message>
+    <user_id>1235</user_id>
+    <ip_address>192.168.1.11</ip_address>
+  </log>
+  <log>
+    <timestamp>2024-06-30T10:32:18Z</timestamp>
+    <level>ERROR</level>
+    <service>database</service>
+    <message>Database connection failed</message>
+    <user_id>system</user_id>
+    <ip_address>192.168.1.12</ip_address>
+  </log>
+</logs>
