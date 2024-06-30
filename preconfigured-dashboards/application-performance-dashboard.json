@@ -1,0 +1,19 @@
+{
+  "attributes": {
+    "title": "Application Performance Dashboard",
+    "hits": 0,
+    "description": "A dashboard to monitor application performance metrics.",
+    "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":0,\"y\":0,\"w\":24,\"h\":15},\"version\":\"7.10.1\",\"type\":\"visualization\",\"id\":\"app-request-latency\"},{\"panelIndex\":\"2\",\"gridData\":{\"x\":0,\"y\":15,\"w\":24,\"h\":15},\"version\":\"7.10.1\",\"type\":\"visualization\",\"id\":\"app-error-rates\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":30,\"w\":24,\"h\":15},\"version\":\"7.10.1\",\"type\":\"visualization\",\"id\":\"app-throughput\"}]",
+    "optionsJSON": "{\"useMargins\":true,\"hidePanelTitles\":false}",
+    "version": 1,
+    "timeRestore": false,
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+    }
+  },
+  "id": "application-performance-dashboard",
+  "references": [],
+  "type": "dashboard",
+  "updated_at": "2024-06-30T12:00:00.000Z",
+  "version": "WzAsMV0="
+}
