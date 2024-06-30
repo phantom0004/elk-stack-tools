@@ -1,0 +1,7 @@
+{"type":"log","@timestamp":"2024-06-30T10:32:16Z","tags":["info","plugins-service"],"pid":12345,"message":"Plugin \"metrics\" is disabled."}
+{"type":"log","@timestamp":"2024-06-30T10:32:17Z","tags":["info","plugins-service"],"pid":12345,"message":"Plugin \"kibana\" is initialized."}
+{"type":"log","@timestamp":"2024-06-30T10:32:18Z","tags":["info","status"],"pid":12345,"message":"Kibana is now available at http://localhost:5601"}
+{"type":"log","@timestamp":"2024-06-30T10:32:19Z","tags":["info","plugins","security"],"pid":12345,"message":"Setting up plugin"}
+{"type":"log","@timestamp":"2024-06-30T10:32:20Z","tags":["info","plugins","security"],"pid":12345,"message":"Plugin initialized."}
+{"type":"log","@timestamp":"2024-06-30T10:32:21Z","tags":["info","plugins","spaces"],"pid":12345,"message":"Spaces plugin is enabled."}
+{"type":"log","@timestamp":"2024-06-30T10:32:22Z","tags":["info","plugins","visualizations"],"pid":12345,"message":"Visualizations plugin initialized."}
