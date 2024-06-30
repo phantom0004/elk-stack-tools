@@ -1,0 +1,5 @@
+2024-06-30 10:32:16 INFO  [main] com.example.Application - Application started successfully on port 8080
+2024-06-30 10:32:17 WARN  [main] com.example.Service - Service response time is slow for endpoint /api/v1/resource
+2024-06-30 10:32:18 ERROR [main] com.example.Database - Database connection failed: Timeout after 3000ms
+2024-06-30 10:32:19 INFO  [main] com.example.Application - Received request for /api/v1/resource from 192.168.1.1
+2024-06-30 10:32:20 DEBUG [main] com.example.Service - Processing request parameters: {id=123, name='example'}
