@@ -6,19 +6,19 @@ This directory contains information about various virtual machines that come pre
 
 1. **Bitnami ELK Stack**
    - A comprehensive virtual machine image that includes Elasticsearch, Logstash, and Kibana pre-installed and pre-configured. Ideal for users who want a quick and easy way to deploy the ELK stack.
-   - [More Information](bitnami.md)
+   - [More Information](Bitnami.md)
 
 2. **Security Onion**
    - A free and open-source Linux distribution for intrusion detection, network security monitoring, and log management. Includes the ELK stack as part of its powerful suite of tools.
-   - [More Information](security-onion.md)
+   - [More Information](Security-Onion.md)
 
 3. **Wazuh ELK Stack**
    - A security monitoring platform that integrates with the ELK stack for real-time threat detection, log data analysis, vulnerability detection, and compliance management.
-   - [More Information](wazuh.md)
+   - [More Information](Wazuh.md)
 
 4. **SOF-ELK**
    - A pre-configured ELK stack appliance designed for security operations and forensic analysis. Provides a platform for analyzing logs and security data.
-   - [More Information](sof-elk.md)
+   - [More Information](SOF-ELK.md)
 
 ## Usage
 
