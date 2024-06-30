@@ -1,0 +1,17 @@
+# Time: 2024-06-30T10:32:16.123456Z
+# User@Host: root[root] @ localhost []  Id: 1234
+# Query_time: 12.345  Lock_time: 0.000 Rows_sent: 1  Rows_examined: 1000
+SET timestamp=1625041936;
+SELECT * FROM mydatabase.mytable WHERE mycolumn = 'value';
+
+# Time: 2024-06-30T10:32:17.123456Z
+# User@Host: appuser[appuser] @ localhost []  Id: 1235
+# Query_time: 8.765  Lock_time: 0.001 Rows_sent: 10  Rows_examined: 5000
+SET timestamp=1625041937;
+SELECT name, age FROM users WHERE age > 30 ORDER BY age;
+
+# Time: 2024-06-30T10:32:18.123456Z
+# User@Host: appuser[appuser] @ localhost []  Id: 1236
+# Query_time: 15.678  Lock_time: 0.002 Rows_sent: 0  Rows_examined: 10000
+SET timestamp=1625041938;
+UPDATE orders SET status='shipped' WHERE order_id=1234;
