@@ -1,4 +1,3 @@
-```markdown
 # Security Setup for ELK Stack
 
 Securing your ELK stack (Elasticsearch, Logstash, Kibana) is crucial to protect sensitive data and maintain the integrity of your logging and monitoring infrastructure. This guide will walk you through the essential steps to secure your ELK stack.
