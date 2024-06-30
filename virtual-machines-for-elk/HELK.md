@@ -1,5 +1,5 @@
 # HELK (Hunting ELK)
-![image](https://github.com/phantom0004/elk-stack-tools/assets/42916447/1a4cae98-3677-4087-beb0-5c4aa586438a)
+![image](https://github.com/phantom0004/elk-stack-tools/assets/42916447/386815db-4c75-4c70-88bd-6d5ef9fd6431)
 
 ## What is HELK?
 HELK is an open-source threat hunting platform that combines the power of Elasticsearch, Logstash, and Kibana with additional tools for threat detection and analysis.
