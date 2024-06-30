@@ -1,0 +1,9 @@
+[2024-06-30T10:32:16,123][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2024-06-30T10:32:17,456][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [50.2gb], net total_space [100gb], types [ext4]
+[2024-06-30T10:32:18,789][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [4gb], compressed ordinary object pointers [true]
+[2024-06-30T10:32:19,012][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [abc123]
+[2024-06-30T10:32:19,345][INFO ][o.e.n.Node               ] [node-1] version[7.10.1], pid[12345], build[default/tar/abcdef/2020-11-11T00:00:00Z], OS[Linux/5.4.0-65-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_241/25.241-b07]
+[2024-06-30T10:32:19,678][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Xms4g, -Xmx4g, -Dfile.encoding=UTF-8, -Duser.timezone=UTC]
+[2024-06-30T10:32:20,012][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [aggs-matrix-stats]
+[2024-06-30T10:32:20,345][INFO ][o.e.p.PluginsService     ] [node-1] loaded plugin [analysis-icu]
+[2024-06-30T10:32:20,678][INFO ][o.e.c.s.ClusterApplierService] [node-1] master node changed {previous [], current [{node-1}{abc123}{192.168.1.1}{192.168.1.1:9300}{dimr}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
