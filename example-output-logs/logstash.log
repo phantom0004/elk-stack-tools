@@ -1,0 +1,9 @@
+[2024-06-30T10:32:16,123][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"7.10.1"}
+[2024-06-30T10:32:17,456][INFO ][logstash.config.source.local.configpathloader] No config files found in path {:path=>"/etc/logstash/conf.d/*.conf"}
+[2024-06-30T10:32:18,789][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2024-06-30T10:32:19,012][WARN ][logstash.inputs.beats    ][main] Beats input: SSL Certificate will expire soon {:address=>"0.0.0.0:5044"}
+[2024-06-30T10:32:19,345][INFO ][logstash.javapipeline    ][main] Pipeline started {"pipeline.id"=>"main"}
+[2024-06-30T10:32:19,678][INFO ][logstash.inputs.metrics  ][main] Monitoring is enabled
+[2024-06-30T10:32:20,012][INFO ][logstash.outputs.elasticsearch][main] Elasticsearch pool URLs updated {:hosts=>["http://localhost:9200"]}
+[2024-06-30T10:32:20,345][INFO ][logstash.outputs.elasticsearch][main] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2024-06-30T10:32:20,678][INFO ][logstash.outputs.elasticsearch][main] Using mapping template from {:path=>nil}
