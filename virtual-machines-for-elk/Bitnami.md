@@ -1,4 +1,5 @@
 # Bitnami ELK Stack
+![image](https://github.com/phantom0004/elk-stack-tools/assets/42916447/a833089a-f295-4bed-a1d6-db1332851f52)
 
 ## What is Bitnami?
 Bitnami provides ready-to-use virtual machines for popular open-source applications, including the ELK stack. These VMs come pre-configured with all necessary components, making deployment quick and easy.
