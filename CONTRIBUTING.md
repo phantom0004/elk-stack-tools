@@ -24,7 +24,7 @@ If you have an idea for a new feature, please open an issue [here](https://githu
 
 2. **Clone your fork**:
     ```bash
-    git clone https://github.com/your-username/elk-stack-tools.git
+    git clone https://github.com/phantom0004/elk-stack-tools.git
     cd elk-stack-tools
     ```
 
