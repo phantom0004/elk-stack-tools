@@ -1,0 +1,36 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /var/log/apache2/access.log
+  fields:
+    log_type: apache_access
+  fields_under_root: true
+
+output.logstash:
+  hosts: ["localhost:5044"]
+  ssl:
+    certificate_authorities: ["/etc/pki/tls/certs/logstash-ca.pem"]
+    certificate: "/etc/pki/tls/certs/filebeat.crt"
+    key: "/etc/pki/tls/certs/filebeat.key"
+
+setup.kibana:
+  host: "localhost:5601"
+
+processors:
+  - add_host_metadata: ~
+  - add_cloud_metadata: ~
+  - add_docker_metadata: ~
+  - add_kubernetes_metadata: ~
+  - decode_json_fields:
+      fields: ["message"]
+      target: ""
+      overwrite_keys: true
+
+logging.level: info
+logging.to_files: true
+logging.files:
+  path: /var/log/filebeat
+  name: filebeat.log
+  keepfiles: 7
+  permissions: 0644
