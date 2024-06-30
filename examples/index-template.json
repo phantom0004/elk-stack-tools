@@ -1,0 +1,15 @@
+{
+  "index_patterns": ["apache-logs-*"],
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 1
+  },
+  "mappings": {
+    "properties": {
+      "timestamp": { "type": "date" },
+      "clientip": { "type": "ip" },
+      "request": { "type": "keyword" },
+      "status": { "type": "integer" }
+    }
+  }
+}
