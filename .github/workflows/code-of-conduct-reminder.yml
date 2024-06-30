@@ -1,0 +1,19 @@
+name: Code of Conduct Reminder
+
+on: [issues, pull_request_target]
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: >
+          👋 Hi there!
+
+          Just a friendly reminder to please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). Thank you for contributing and helping us maintain a welcoming community. 🌸
+        pr-message: >
+          👋 Hi there!
+
+          Just a friendly reminder to please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). Thank you for contributing and helping us maintain a welcoming community. 🌸
