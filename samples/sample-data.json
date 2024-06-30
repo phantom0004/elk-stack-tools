@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2024-06-30T10:32:16Z",
+    "level": "INFO",
+    "service": "auth",
+    "message": "User login successful",
+    "user_id": "1234",
+    "ip_address": "192.168.1.10"
+  },
+  {
+    "timestamp": "2024-06-30T10:32:17Z",
+    "level": "WARN",
+    "service": "auth",
+    "message": "User login attempt failed",
+    "user_id": "1235",
+    "ip_address": "192.168.1.11"
+  },
+  {
+    "timestamp": "2024-06-30T10:32:18Z",
+    "level": "ERROR",
+    "service": "database",
+    "message": "Database connection failed",
+    "user_id": "system",
+    "ip_address": "192.168.1.12"
+  }
+]
