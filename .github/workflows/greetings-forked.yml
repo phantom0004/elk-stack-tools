@@ -1,0 +1,15 @@
+name: Greet Forks
+
+on:
+  fork:
+    types: [created]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        fork-message: >
+          Thank you for forking the repository! 😊 If you have any questions or need help, feel free to open an issue. Happy coding! 🚀
