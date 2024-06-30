@@ -1,0 +1,5 @@
+2024-06-30 10:32:16 INFO  [auth-service] User login successful: user_id=1234, ip_address=192.168.1.10
+2024-06-30 10:32:17 WARN  [auth-service] User login attempt failed: user_id=1235, ip_address=192.168.1.11
+2024-06-30 10:32:18 ERROR [database-service] Database connection failed: user_id=system, ip_address=192.168.1.12
+2024-06-30 10:32:19 INFO  [web-service] Page accessed: url=/home, user_id=1234, ip_address=192.168.1.10
+2024-06-30 10:32:20 INFO  [web-service] Page accessed: url=/login, user_id=1235, ip_address=192.168.1.11
