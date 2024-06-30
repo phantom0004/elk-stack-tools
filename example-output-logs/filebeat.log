@@ -5,3 +5,26 @@
 2024-06-30T10:32:16.125Z    INFO    [beat]    instance/beat.go:979    Build info    {"system_info": {"build": {"commit": "12345abcd", "libbeat": "7.10.1", "time": "2024-06-30T10:00:00Z", "version": "7.10.1"}}}
 2024-06-30T10:32:16.125Z    INFO    [beat]    instance/beat.go:982    Go runtime info    {"system_info": {"go": {"os":"linux","arch":"amd64","max_procs":4,"version":"go1.15.6"}}}
 2024-06-30T10:32:16.126Z    INFO    [beat]    instance/beat.go:986    Host info    {"system_info": {"host": {"architecture":"x86_64","boot_time":"2024-06-30T09:50:00Z","containerized":false,"name":"server1","ip":["127.0.0.1/8","192.168.1.1/24"],"kernel_version":"4.15.0-132-generic","mac":["00:0c:29:58:8f:35"],"os":{"family":"debian","platform":"ubuntu","name":"Ubuntu","version":"18.04.5 LTS (Bionic Beaver)","major":18,"minor":4,"patch":5,"codename":"bionic"},"timezone":"UTC","timezone_offset_sec":0}}}
+2024-06-30T10:32:16.126Z    INFO    [beat]    instance/beat.go:1015    Process info    {"system_info": {"process": {"capabilities": {"inheritable":null,"permitted":["chown","dac_override","fowner","fsetid","kill","setgid","setuid","setpcap","net_bind_service","net_raw","sys_chroot","mknod","audit_write"],"effective":["chown","dac_override","fowner","fsetid","kill","setgid","setuid","setpcap","net_bind_service","net_raw","sys_chroot","mknod","audit_write"],"bounding":["chown","dac_override","fowner","fsetid","kill","setgid","setuid","setpcap","net_bind_service","net_raw","sys_chroot","mknod","audit_write"],"ambient":null}, "cwd": "/usr/share/filebeat", "exe": "/usr/share/filebeat/filebeat", "name": "filebeat", "pid": 1, "ppid": 0, "seccomp": {"mode":"filter","no_new_privs":true}, "start_time": "2024-06-30T10:32:16.123Z"}}}
+2024-06-30T10:32:16.126Z    INFO    instance/beat.go:299    Setup Beat: filebeat; Version: 7.10.1
+2024-06-30T10:32:16.126Z    INFO    [index-management]    idxmgmt/std.go:184    Set output.elasticsearch.index to 'filebeat-7.10.1' as ILM is enabled.
+2024-06-30T10:32:16.127Z    INFO    eslegclient/connection.go:99    elasticsearch url: http://localhost:9200
+2024-06-30T10:32:16.127Z    INFO    [publisher_pipeline_output]    pipeline/output.go:151    Connection to backoff(elasticsearch(http://localhost:9200)) established
+2024-06-30T10:32:16.127Z    INFO    [monitoring]    log/log.go:118    Starting metrics logging every 30s
+2024-06-30T10:32:16.127Z    INFO    [monitoring]    elasticsearch/elasticsearch.go:261    Start monitoring endpoint init loop.
+2024-06-30T10:32:16.128Z    INFO    [monitoring]    elasticsearch/elasticsearch.go:275    Start monitoring stats loop.
+2024-06-30T10:32:16.128Z    INFO    beater/filebeat.go:89    filebeat start running.
+2024-06-30T10:32:16.128Z    INFO    registrar/registrar.go:109    States Loaded from registrar: 0
+2024-06-30T10:32:16.128Z    INFO    crawler/crawler.go:71    Loading Inputs: 1
+2024-06-30T10:32:16.128Z    INFO    log/input.go:157    Configured paths: [/var/log/apache2/access.log /var/log/apache2/error.log]
+2024-06-30T10:32:16.128Z    INFO    input/input.go:114    Starting input of type: log; ID: 123456789
+2024-06-30T10:32:16.128Z    INFO    crawler/crawler.go:108    Loading and starting Inputs completed. Enabled inputs: 1
+2024-06-30T10:32:16.128Z    INFO    cfgfile/reload.go:164    Config reloader started
+2024-06-30T10:32:16.128Z    INFO    cfgfile/reload.go:224    Loading of config files completed.
+2024-06-30T10:32:16.128Z    INFO    registrar/registrar.go:140    Starting Registrar
+2024-06-30T10:32:16.128Z    INFO    [monitoring]    log/log.go:153    Starting metrics logging every 30s
+2024-06-30T10:32:16.128Z    INFO    [monitoring]    elasticsearch/elasticsearch.go:198    Successfully connected to X-Pack Monitoring endpoint.
+2024-06-30T10:32:16.128Z    INFO    [monitoring]    elasticsearch/elasticsearch.go:209    Connected to monitoring cluster.
+2024-06-30T10:32:16.128Z    INFO    [monitoring]    elasticsearch/elasticsearch.go:213    Successfully connected to the monitoring cluster.
+2024-06-30T10:32:46.128Z    INFO    log/harvester.go:299    Harvester started for file: /var/log/apache2/access.log
+2024-06-30T10:32:46.128Z    INFO    log/harvester.go:299    Harvester started for file: /var/log/apache2/error.log
