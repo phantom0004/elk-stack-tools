@@ -14,7 +14,6 @@ This repository contains tools, scripts, and documentation for managing and usin
   - [clear-elk-logs.sh](#clear-elk-logssh)
 - [Examples](#examples)
 - [Documentation](#documentation)
-- [Contributing](#contributing)
 - [License](#license)
 
 ---
